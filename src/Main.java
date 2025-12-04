@@ -22,7 +22,7 @@ public class Main {
 
         //Construimos barco con el array pasajeros
         Barco barco = new Barco(pasajeros);
-
+        // Version nueva con los semaphore
         Semaphore semaphore=new Semaphore(1);
 
 
